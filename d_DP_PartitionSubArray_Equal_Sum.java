@@ -2,7 +2,7 @@ package dsa1;
 
 import java.util.Arrays;
 
-public class b_DP_PartitionSubArray_Equal_Sum {
+public class d_DP_PartitionSubArray_Equal_Sum {
     public static void main(String[] args) {
         int[] arr = {1, 5, 11, 5};
         // 1 5 11 5
