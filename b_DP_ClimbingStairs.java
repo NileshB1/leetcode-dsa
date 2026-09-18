@@ -3,7 +3,7 @@ package dsa1;
 public class b_DP_ClimbingStairs {
     public static void main(String[] args) {
         int numOfStairsBottomup = numberOfStepsBottomup(5);
-        System.out.println("DP bottom up approach, Number of stairs are: " + numOfStairsBottomup);
+        System.out.println("DP bottom up approach, Number of stairs are:: " + numOfStairsBottomup);
 
         int numOfStairsFib = numberOfStepsFibonacci(5);
         System.out.println("Fibonacci approach, Number of stairs: " + numOfStairsFib);
