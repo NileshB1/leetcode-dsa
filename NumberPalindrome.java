@@ -1,5 +1,6 @@
 package dsa1;
 
+//1. Normal reverse number. Just check while num > reversedNum (Means both numbers are halfway or reversedNum is greater by 10x)
 public class NumberPalindrome {
     public static void main(String[] args) {
         int num = 12321;
