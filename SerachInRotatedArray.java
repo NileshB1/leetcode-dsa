@@ -2,11 +2,11 @@ package com.test.lambda;
 
 /**
  * #18. Search in rotated sorted array
- * #e.g. 0 1 2 3 => 1 2 3 0 => 2 3 0 1 => 3 0 1 2
+ * # e.g. 0 1 2 3 => 1 2 3 0 => 2 3 0 1 => 3 0 1 2
  * # 6 7 8 9 0 1 2 3 4 5 target = 4
- * #clue: Modify binary serach. Find sorted portion in array (L->M or M->R)
- * #1. binary serach, find sorted part
- * #2. Check whther target in sorted part if no discard and continue
+ * # Clue: Modify binary serach. Find sorted portion in array (L->M or M->R). 4 times modifications
+ * # 1. binary serach, find sorted part
+ * # 2. Check whther target in sorted part if no discard and continue
  */
 public class SerachInRotatedArray {
     public static void main(String[] args) {
