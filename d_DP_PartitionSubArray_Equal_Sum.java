@@ -18,7 +18,7 @@ public class d_DP_PartitionSubArray_Equal_Sum {
         if(total %2==1) {
             return false;
         }
-        int target = total/2;
+        int target = total/2; //since we need equal partition
         boolean[] dp = new boolean[target+1];
         dp[0] = true;
         for(int i=0; i<arr.length; i++) {
