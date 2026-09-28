@@ -4,7 +4,7 @@ package dsa1;
 public class NumberPalindrome {
     public static void main(String[] args) {
         int num = 12321;
-        // int num = -121;
+        // int num = -121; //Test negative number
         // int num = 1234;
         boolean isNumPalidrome = isPalindrome(num);
         System.out.println("Number: "+ num + ", is palindrome: " + isNumPalidrome);
